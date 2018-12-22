@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <title>BUTSA Event Check-In System</title>
   <meta charset="utf-8">
@@ -13,250 +14,259 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
   <style>
-    .fa-check-circle{
+    .fa-check-circle {
       color: green;
     }
-    .fa-times-circle{
+
+    .fa-times-circle {
       color: red;
     }
+
     tr td:nth-child(even) {
       text-align: left;
     }
   </style>
 
 </head>
+
 <body>
 
-<div class="container-fluid">
-  <div class="text-center" style="margin-top: 15px">
-    <img src="./images/image1.jpg" class="img-fluid" alt="Responsive image">
+  <div class="container-fluid">
+    <div class="text-center" style="margin-top: 15px">
+      <img src="./images/image1.jpg" class="img-fluid" alt="Responsive image">
+    </div>
+
+    <br>
+    <div class="row">
+    <div class="col-lg-6">
+      <p><strong>Event Attendees:</strong></p>
+
+      <table class="table text-center">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col" class="text-left">Name</th>
+            <th scope="col">Check-In</th>
+          </tr>
+        </thead>
+        <tbody id="#checkin">
+          <tr id="checkin">
+            <th scope="row">1</th>
+            <td>Amy Ruo-Yu Chou</td>
+            <td><i class="fa fa-times-circle" aria-hidden="true"></i></td>
+          </tr>
+          <tr id="checkin">
+            <th scope="row">2</th>
+            <td>Avery Huang</td>
+            <td><i class="fa fa-times-circle" aria-hidden="true"></i></td>
+          </tr>
+          <tr id="checkin">
+            <th scope="row">3</th>
+            <td>Alden Liang</td>
+            <td><i class="fa fa-times-circle" aria-hidden="true"></i></td>
+          </tr>
+
+          <tr id="checkin">
+            <th scope="row">4</th>
+            <td class="text-left">Chih Chien Lin</td>
+            <td><i class="fa fa-times-circle" aria-hidden="true"></i></td>
+          </tr>
+
+          <tr id="checkin">
+            <th scope="row">5</th>
+            <td>Chun-Chieh Liang</td>
+            <td><i class="fa fa-times-circle" aria-hidden="true"></i></td>
+          </tr>
+
+          <tr id="checkin">
+            <th scope="row">6</th>
+            <td>Erica Huang</td>
+            <td><i class="fa fa-times-circle" aria-hidden="true"></i></td>
+          </tr>
+
+          <tr id="checkin">
+            <th scope="row">7</th>
+            <td>Amber Chen</td>
+            <td><i class="fa fa-times-circle" aria-hidden="true"></i></td>
+          </tr>
+
+          <tr id="checkin">
+            <th scope="row">8</th>
+            <td>Tim Cheng</td>
+            <td><i class="fa fa-times-circle" aria-hidden="true"></i></td>
+          </tr>
+
+          <tr id="checkin">
+            <th scope="row">9</th>
+            <td>Jim Cheng</td>
+            <td><i class="fa fa-times-circle" aria-hidden="true"></i></td>
+          </tr>
+
+          <tr id="checkin">
+            <th scope="row">10</th>
+            <td>Ilina Lin</td>
+            <td><i class="fa fa-times-circle" aria-hidden="true"></i></td>
+          </tr>
+
+          <tr id="checkin">
+            <th scope="row">11</th>
+            <td>仁煊 向</td>
+            <td><i class="fa fa-times-circle" aria-hidden="true"></i></td>
+          </tr>
+
+          <tr id="checkin">
+            <th scope="row">12</th>
+            <td>Jynn Kung</td>
+            <td><i class="fa fa-times-circle" aria-hidden="true"></i></td>
+          </tr>
+
+          <tr id="checkin">
+            <th scope="row">13</th>
+            <td><span class="fa fa-money" aria-hidden="true"></span> Evelyn Liu</td>
+            <td><i class="fa fa-times-circle" aria-hidden="true"></i></td>
+          </tr>
+
+          <tr id="checkin">
+            <th scope="row">14</th>
+            <td>Robert Wang</td>
+            <td><i class="fa fa-times-circle" aria-hidden="true"></i></td>
+          </tr>
+
+          <tr id="checkin">
+            <th scope="row">15</th>
+            <td>Addison Lee</td>
+            <td><i class="fa fa-times-circle" aria-hidden="true"></i></td>
+          </tr>
+
+          <tr id="checkin">
+            <th scope="row">16</th>
+            <td>Ssu-Hua Chao</td>
+            <td><i class="fa fa-times-circle" aria-hidden="true"></i></td>
+          </tr>
+
+          <tr id="checkin">
+            <th scope="row">17</th>
+            <td>Sony Tsai</td>
+            <td><i class="fa fa-times-circle" aria-hidden="true"></i></td>
+          </tr>
+
+          <tr id="checkin">
+            <th scope="row">18</th>
+            <td>Tzu-En Hung</td>
+            <td><i class="fa fa-times-circle" aria-hidden="true"></i></td>
+          </tr>
+
+          <tr id="checkin">
+            <th scope="row">19</th>
+            <td>Yuchen Hsieh</td>
+            <td><i class="fa fa-times-circle" aria-hidden="true"></i></td>
+          </tr>
+
+          <tr id="checkin">
+            <th scope="row">20</th>
+            <td>Yu Ting Tseng</td>
+            <td><i class="fa fa-times-circle" aria-hidden="true"></i></td>
+          </tr>
+
+          <tr id="checkin">
+            <th scope="row">21</th>
+            <td>Zoey Lin</td>
+            <td><i class="fa fa-times-circle" aria-hidden="true"></i></td>
+          </tr>
+
+          <tr id="checkin">
+            <th scope="row">22</th>
+            <td><span class="fa fa-money" aria-hidden="true"></span> Crystal Lai</td>
+            <td><i class="fa fa-times-circle" aria-hidden="true"></i></td>
+          </tr>
+
+          <tr id="checkin">
+            <th scope="row">23</th>
+            <td><span class="fa fa-money" aria-hidden="true"></span> Kenneth Hsieh</td>
+            <td><i class="fa fa-times-circle" aria-hidden="true"></i></td>
+          </tr>
+
+          <tr id="checkin">
+            <th scope="row">24</th>
+            <td><span class="fa fa-money" aria-hidden="true"></span> Baloo Wei</td>
+            <td><i class="fa fa-times-circle" aria-hidden="true"></i></td>
+          </tr>
+
+          <tr id="checkin">
+            <th scope="row">25</th>
+            <td><span class="fa fa-money" aria-hidden="true"> </span> Shelly Chiang</td>
+            <td id="checkin"><i class="fa fa-times-circle" aria-hidden="true"></i></td>
+          </tr>
+        </tbody>
+      </table>
+      <p>* <i class="fa fa-money" aria-hidden="true"></i> : Attendees not yet paid.</p>
+      <br>
+    </div>
+      <div class="col-lg-6">
+      <p><strong>BUTSA Cadres:</strong></p>
+
+      <table class="table text-center">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col" class="text-left">Name</th>
+            <th scope="col">Check-In</th>
+          </tr>
+        </thead>
+
+        <tbody id="#checkin">
+          <tr id="checkin">
+            <th scope="row">26</th>
+            <td>Henry Li</td>
+            <td><i class="fa fa-times-circle" aria-hidden="true"></i></td>
+          </tr>
+
+        <tbody id="#checkin">
+          <tr id="checkin">
+            <th scope="row">27</th>
+            <td>Tony Fu</td>
+            <td><i class="fa fa-times-circle" aria-hidden="true"></i></td>
+          </tr>
+        </tbody>
+
+        <tbody id="#checkin">
+          <tr id="checkin">
+            <th scope="row">28</th>
+            <td>Miffy Chen</td>
+            <td><i class="fa fa-times-circle" aria-hidden="true"></i></td>
+          </tr>
+        </tbody>
+
+        <tbody id="#checkin">
+          <tr id="checkin">
+            <th scope="row">29</th>
+            <td>Grace Lee</td>
+            <td><i class="fa fa-times-circle" aria-hidden="true"></i></td>
+          </tr>
+        </tbody>
+
+        <tbody id="#checkin">
+          <tr id="checkin">
+            <th scope="row">30</th>
+            <td>Phobe Chou</td>
+            <td><i class="fa fa-times-circle" aria-hidden="true"></i></td>
+          </tr>
+        </tbody>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  </div>
   </div>
 
-  <br>
-
-  <p><strong>Event Attendees:</strong></p>
-
-  <table class="table text-center">
-    <thead class="thead-dark">
-      <tr>
-        <th scope="col">#</th>
-        <th scope="col" class="text-left">Name</th>
-        <th scope="col">Check-In</th>
-      </tr>
-    </thead>
-    <tbody id="#checkin">
-      <tr id="checkin">
-        <th scope="row">1</th>
-        <td>Amy Ruo-Yu Chou</td>
-        <td><i class="fa fa-times-circle" aria-hidden="true"></i></td>
-      </tr>
-      <tr id="checkin">
-        <th scope="row">2</th>
-        <td>Avery Huang</td>
-        <td><i class="fa fa-times-circle" aria-hidden="true"></i></td>
-      </tr>
-      <tr id="checkin">
-        <th scope="row">3</th>
-        <td>Alden Liang</td>
-        <td><i class="fa fa-times-circle" aria-hidden="true"></i></td>
-      </tr>
-
-      <tr id="checkin">
-        <th scope="row">4</th>
-        <td class="text-left">Chih Chien Lin</td>
-        <td><i class="fa fa-times-circle" aria-hidden="true"></i></td>
-      </tr>
-
-      <tr id="checkin">
-        <th scope="row">5</th>
-        <td>Chun-Chieh Liang</td>
-        <td><i class="fa fa-times-circle" aria-hidden="true"></i></td>
-      </tr>
-
-      <tr id="checkin">
-        <th scope="row">6</th>
-        <td>Erica Huang</td>
-        <td><i class="fa fa-times-circle" aria-hidden="true"></i></td>
-      </tr>
-
-      <tr id="checkin">
-        <th scope="row">7</th>
-        <td>Amber Chen</td>
-        <td><i class="fa fa-times-circle" aria-hidden="true"></i></td>
-      </tr>
-
-      <tr id="checkin">
-        <th scope="row">8</th>
-        <td>Tim Cheng</td>
-        <td><i class="fa fa-times-circle" aria-hidden="true"></i></td>
-      </tr>
-
-      <tr id="checkin">
-        <th scope="row">9</th>
-        <td>Jim Cheng</td>
-        <td><i class="fa fa-times-circle" aria-hidden="true"></i></td>
-      </tr>
-
-      <tr id="checkin">
-        <th scope="row">10</th>
-        <td>Ilina Lin</td>
-        <td><i class="fa fa-times-circle" aria-hidden="true"></i></td>
-      </tr>
-
-      <tr id="checkin">
-        <th scope="row">11</th>
-        <td>仁煊 向</td>
-        <td><i class="fa fa-times-circle" aria-hidden="true"></i></td>
-      </tr>
-
-      <tr id="checkin">
-        <th scope="row">12</th>
-        <td>Jynn Kung</td>
-        <td><i class="fa fa-times-circle" aria-hidden="true"></i></td>
-      </tr>
-
-      <tr id="checkin">
-        <th scope="row">13</th>
-        <td><span class="fa fa-money" aria-hidden="true"></span> Evelyn Liu</td>
-        <td><i class="fa fa-times-circle" aria-hidden="true"></i></td>
-      </tr>
-
-      <tr id="checkin">
-        <th scope="row">14</th>
-        <td>Robert Wang</td>
-        <td><i class="fa fa-times-circle" aria-hidden="true"></i></td>
-      </tr>
-
-      <tr id="checkin">
-        <th scope="row">15</th>
-        <td>Addison Lee</td>
-        <td><i class="fa fa-times-circle" aria-hidden="true"></i></td>
-      </tr>
-
-      <tr id="checkin">
-        <th scope="row">16</th>
-        <td>Ssu-Hua Chao</td>
-        <td><i class="fa fa-times-circle" aria-hidden="true"></i></td>
-      </tr>
-
-      <tr id="checkin">
-        <th scope="row">17</th>
-        <td>Sony Tsai</td>
-        <td><i class="fa fa-times-circle" aria-hidden="true"></i></td>
-      </tr>
-
-      <tr id="checkin">
-        <th scope="row">18</th>
-        <td>Tzu-En Hung</td>
-        <td><i class="fa fa-times-circle" aria-hidden="true"></i></td>
-      </tr>
-
-      <tr id="checkin">
-        <th scope="row">19</th>
-        <td>Yuchen Hsieh</td>
-        <td><i class="fa fa-times-circle" aria-hidden="true"></i></td>
-      </tr>
-
-      <tr id="checkin">
-        <th scope="row">20</th>
-        <td>Yu Ting Tseng</td>
-        <td><i class="fa fa-times-circle" aria-hidden="true"></i></td>
-      </tr>
-
-      <tr id="checkin">
-        <th scope="row">21</th>
-        <td>Zoey Lin</td>
-        <td><i class="fa fa-times-circle" aria-hidden="true"></i></td>
-      </tr>
-
-      <tr id="checkin">
-        <th scope="row">22</th>
-        <td><span class="fa fa-money" aria-hidden="true"></span> Crystal Lai</td>
-        <td><i class="fa fa-times-circle" aria-hidden="true"></i></td>
-      </tr>
-
-      <tr id="checkin">
-        <th scope="row">23</th>
-        <td><span class="fa fa-money" aria-hidden="true"></span> Kenneth Hsieh</td>
-        <td><i class="fa fa-times-circle" aria-hidden="true"></i></td>
-      </tr>
-
-      <tr id="checkin">
-        <th scope="row">24</th>
-        <td><span class="fa fa-money" aria-hidden="true"></span> Baloo Wei</td>
-        <td><i class="fa fa-times-circle" aria-hidden="true"></i></td>
-      </tr>
-
-      <tr id="checkin">
-        <th scope="row">25</th>
-        <td><span class="fa fa-money" aria-hidden="true"> </span> Shelly Chiang</td>
-        <td id="checkin"><i class="fa fa-times-circle" aria-hidden="true"></i></td>
-      </tr>
-    </tbody>
-  </table>
-  <p>* <i class="fa fa-money" aria-hidden="true"></i> : Attendees not yet paid.</p>
-  <br>
-
-  <p><strong>BUTSA Cadres:</strong></p>
-
-  <table class="table text-center">
-    <thead class="thead-dark">
-      <tr>
-        <th scope="col">#</th>
-        <th scope="col" class="text-left">Name</th>
-        <th scope="col">Check-In</th>
-      </tr>
-    </thead>
-
-    <tbody id="#checkin">
-      <tr id="checkin">
-        <th scope="row">26</th>
-        <td>Henry Li</td>
-        <td><i class="fa fa-times-circle" aria-hidden="true"></i></td>
-      </tr>
-
-      <tbody id="#checkin">
-        <tr id="checkin">
-          <th scope="row">27</th>
-          <td>Tony Fu</td>
-          <td><i class="fa fa-times-circle" aria-hidden="true"></i></td>
-        </tr>
-      </tbody>
-
-      <tbody id="#checkin">
-        <tr id="checkin">
-          <th scope="row">28</th>
-          <td>Miffy Chen</td>
-          <td><i class="fa fa-times-circle" aria-hidden="true"></i></td>
-        </tr>
-      </tbody>
-
-      <tbody id="#checkin">
-        <tr id="checkin">
-          <th scope="row">29</th>
-          <td>Grace Lee</td>
-          <td><i class="fa fa-times-circle" aria-hidden="true"></i></td>
-        </tr>
-      </tbody>
-
-      <tbody id="#checkin">
-        <tr id="checkin">
-          <th scope="row">30</th>
-          <td>Phobe Chou</td>
-          <td><i class="fa fa-times-circle" aria-hidden="true"></i></td>
-        </tr>
-      </tbody>
-    </tbody>
-  </table>
-</div>
-
-<script>
-  $('#checkin td').click(function(){
+  <script>
+    $('#checkin td').click(function () {
       $(this).find('i').toggleClass('fa-times-circle fa-check-circle');
       $(this).find('span').toggleClass('fa-money')
-  });
-</script>
+    });
+  </script>
 
 
 </body>
+
 </html>
